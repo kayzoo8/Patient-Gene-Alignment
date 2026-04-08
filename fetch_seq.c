@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include <sys/types.h> // << what is this?
-#include <sys/wait.h> // what are all these libraries
+#include <sys/types.h>
+#include <sys/wait.h>
 
 #define MAX_SEQ_LEN 6000 // max length 6000 bp for now
 #define NCBI_API_KEY "d9d8a429deb9981e28976a848dd00a3fd708"
